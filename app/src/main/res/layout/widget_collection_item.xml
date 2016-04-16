@@ -4,11 +4,11 @@
     android:id="@+id/widget_list_item"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/touch_selector_dark"
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:padding="@dimen/widget_margin"
     android:paddingEnd="8dp"
-    android:paddingStart="8dp">
+    android:paddingStart="8dp"
+    >
 
 
     <TextView
@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
         android:gravity="left|center_vertical"
-        tools:text="@string/stock_symbol_default" />
+        tools:text="@string/stock_symbol_default"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/change"
@@ -32,6 +33,7 @@
         android:paddingRight="3dp"
         android:paddingEnd="3dp"
         android:paddingStart="3dp"
-        tools:text="@string/change_text" />
+        tools:text="@string/change_text"
+        android:textColor="#FFFFFF"/>
 
 </FrameLayout>
